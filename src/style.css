@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+/* .container {
+  min-height: 100vh;
+  background-color: red;
+} */
+
+.logos {
+  background-color: antiquewhite;
+  padding: 20px;
+  background-color: #eab308;
+  border: 10px solid #ca8a04;
+  display: flex;
+}
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+  color: yellow;
+}
+.logo-title {
+  font-size: 80px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.forms {
+  background-color: antiquewhite;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 10px solid green;
+}
+
+.Lists {
+  background-color: aquamarine;
+  padding: 40px 40px 458px 40px;
+  border: 10px solid brown;
+}
+
+.stats {
+  background-color: blanchedalmond;
+  padding: 40px;
+  border: 10px solid black;
+  display: flex;
+  align-items: center;
+}
+.stats em {
+  margin: 0 auto;
+}
+
+.forms > input {
+  padding: 12px 24px;
+  border: 2 px solid #eab308;
+  outline: none;
+  border-radius: 9px;
+}
+
+.forms > button {
+  padding: 10px 32px;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 9px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.forms ::placeholder {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+.forms > select {
+  padding: 10px 32px;
+  border: 2px solid #333;
+  font-size: 20px;
+  border-radius: 9px;
+  font-weight: bold;
+}
+
+.Lists {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 10%;
+}
+
+.items span {
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+.items > button {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  margin-left: 16px;
+  background-color: aquamarine;
+  color: red;
+  border: none;
+  outline: none;
+  font-size: 26px;
+  font-weight: bold;
+}
