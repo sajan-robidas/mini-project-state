@@ -39,10 +39,11 @@ body {
   border: 10px solid green;
 }
 
-.Lists {
+.listss {
+  border: 10px solid brown;
   background-color: aquamarine;
   padding: 40px 40px 458px 40px;
-  border: 10px solid brown;
+  position: relative;
 }
 
 .stats {
@@ -109,4 +110,40 @@ body {
   outline: none;
   font-size: 26px;
   font-weight: bold;
+}
+
+.stats > em {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  gap: 10px;
+}
+
+.actions > select {
+  font-size: 14px;
+  padding: 8px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.actions > button {
+  padding: 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 15px;
+  border: none;
+  outline: none;
 }
